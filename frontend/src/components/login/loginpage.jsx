@@ -13,7 +13,7 @@ const Login = () => {
         navigate("/signup")
     }
     useEffect(() => {
-        fetch("http://localhost:8000/alluser").then(res => res.json())
+        fetch("https://notes-backend-oh9p.onrender.com/alluser").then(res => res.json())
             .then((data) => {
 
                 setdata(data?.result)

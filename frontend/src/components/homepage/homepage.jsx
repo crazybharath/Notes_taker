@@ -9,7 +9,7 @@ const Homepage = () => {
     // const[delid,setdelid]=useState("")
 
     useEffect(() => {
-        fetch("http://localhost:8000/alldata").then(res => res.json())
+        fetch("https://notes-backend-oh9p.onrender.com/alldata").then(res => res.json())
             .then((data) => {
 
                 setpost(data?.result)

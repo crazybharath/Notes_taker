@@ -11,7 +11,7 @@ const Header = () => {
     }
 
     const delClick = () => {
-        fetch("http://localhost:8000/delall", {
+        fetch("https://notes-backend-oh9p.onrender.com/delall", {
             method: "DELETE",
         })
 

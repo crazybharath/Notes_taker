@@ -16,7 +16,7 @@ const SignUp = () => {
             const formdata = new FormData();
             formdata.append("email", email)
             formdata.append("password", password)
-            fetch("http://localhost:8000/signup", {
+            fetch("https://notes-backend-oh9p.onrender.com/signup", {
                 method: "POST",
                 body: formdata
             })
