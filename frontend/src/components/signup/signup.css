@@ -1,0 +1,20 @@
+.container{
+    background-color: yellowgreen;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.btn14{
+    width: 400px;
+    height: 35px;
+    border-radius: 6px;
+    font-weight: bolder;
+    background-color: blueviolet;
+    cursor: pointer;
+}

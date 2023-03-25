@@ -1,0 +1,27 @@
+.container4{
+    background-color: aquamarine;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+.area{
+    width: 600px;
+    height: 150px;
+    margin-left: 40px;
+}
+.btn5{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bolder;
+    background-color: yellowgreen;
+    cursor: pointer;
+    margin-left: 300px;
+}
