@@ -1,4 +1,4 @@
-.container{
+.container {
     background-color: yellowgreen;
     width: 600px;
     height: 400px;
@@ -10,7 +10,8 @@
     margin-left: 400px;
     margin-top: 100px;
 }
-.btn14{
+
+.btn14 {
     width: 400px;
     height: 35px;
     border-radius: 6px;

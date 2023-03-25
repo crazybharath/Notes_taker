@@ -1,23 +1,23 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import ("./header.css")
-const Header=()=>{
-    const navigate=useNavigate();
-    const HandleClick=()=>{
+import("./header.css")
+const Header = () => {
+    const navigate = useNavigate();
+    const HandleClick = () => {
         navigate("/addnotes")
     }
-    const ClickHandle=()=>{
+    const ClickHandle = () => {
         navigate("/homepage")
     }
 
-const delClick=()=>{
-    fetch("http://localhost:8000/delall", {
-                method: "DELETE",
-            })
+    const delClick = () => {
+        fetch("http://localhost:8000/delall", {
+            method: "DELETE",
+        })
 
-    navigate("/homepage")
-}
-    return(
+        navigate("/homepage")
+    }
+    return (
         <div>
             <section className="container3">
                 <button onClick={ClickHandle} className="btn1">Home</button>

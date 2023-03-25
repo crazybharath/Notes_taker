@@ -33,13 +33,13 @@ const AddNotes = () => {
             <section className="container4">
                 <div>
                     <h3>Title</h3>
-                    <textarea type="text" name="title" id="title" onChange={(e) => { settitle(e.target.value)}}className="area"/>
+                    <textarea type="text" name="title" id="title" onChange={(e) => { settitle(e.target.value) }} className="area" />
                 </div>
                 <div>
                     <h3>Description</h3>
                     <textarea type="text" name="description" id="description" onChange={(e) => { setdescription(e.target.value) }} className="area" />
                 </div>
-                {!err?<div style={{color:"red"}}>Dont Avoid any thing</div>:null}
+                {!err ? <div style={{ color: "red" }}>Dont Avoid any thing</div> : null}
                 <div>
                     <button onClick={HandleClick} className="btn5">Add Notes</button>
                 </div>

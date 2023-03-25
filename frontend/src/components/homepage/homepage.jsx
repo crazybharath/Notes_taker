@@ -22,7 +22,7 @@ const Homepage = () => {
                 <Header />
             </section>
             <section>
-                <input type="search" name="search" id="search" className="search"/>
+                <input type="search" name="search" id="search" className="search" />
                 <button className="btn7">Search</button>
             </section>
             <section className="container6">

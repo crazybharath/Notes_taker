@@ -1,4 +1,4 @@
-.container3{
+.container3 {
     display: flex;
     justify-content: space-around;
     width: 1000px;
@@ -6,7 +6,8 @@
     margin-left: 150px;
     margin-top: 10px;
 }
-.btn1{
+
+.btn1 {
     width: 100px;
     border-radius: 5px;
     border: 1px solid black;
@@ -15,7 +16,8 @@
     background-color: blue;
     cursor: pointer;
 }
-.btn2{
+
+.btn2 {
     width: 100px;
     border-radius: 5px;
     border: 1px solid black;
@@ -24,7 +26,8 @@
     background-color: skyblue;
     cursor: pointer;
 }
-.btn3{
+
+.btn3 {
     width: 100px;
     border-radius: 5px;
     border: 1px solid black;
@@ -33,12 +36,13 @@
     background-color: yellowgreen;
     cursor: pointer;
 }
-.btn4{
+
+.btn4 {
     width: 100px;
     border-radius: 5px;
     border: 1px solid black;
     text-align: center;
     font-weight: bolder;
-    background-color:pink;
+    background-color: pink;
     cursor: pointer;
 }

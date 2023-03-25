@@ -1,17 +1,19 @@
-.container6{
+.container6 {
     width: 800px;
     border: 1px solid black;
     margin-left: 250px;
     background-color: burlywood;
 }
-.container7{
+
+.container7 {
     border: 1px solid black;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: greenyellow;
 }
-.search{
+
+.search {
     width: 400px;
     height: 30px;
     margin-left: 400px;
@@ -19,24 +21,26 @@
     margin-bottom: 20px;
     border: 2px solid gray;
 }
-.btn7{
+
+.btn7 {
     width: 100px;
     height: 30px;
     border-radius: 5px;
     margin-left: 10px;
     cursor: pointer;
-    background-color:darkgrey;
+    background-color: darkgrey;
 }
-.btn8{
+
+.btn8 {
     border: none;
     font-weight: bold;
     cursor: pointer;
 }
-.btn9{
+
+.btn9 {
     border: none;
     font-weight: bold;
     cursor: pointer;
     margin-left: 10px;
-    
-}
 
+}

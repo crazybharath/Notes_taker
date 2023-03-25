@@ -1,4 +1,4 @@
-.container1{
+.container1 {
     background-color: aquamarine;
     width: 600px;
     height: 400px;
@@ -10,13 +10,17 @@
     margin-left: 400px;
     margin-top: 100px;
 }
-.btn10{
+
+.btn10 {
     width: 100px;
     height: 20px;
     border-radius: 6px;
+    cursor: pointer;
 }
-.btn11{
+
+.btn11 {
     width: 100px;
     height: 40px;
     border-radius: 6px;
+    cursor: pointer;
 }
